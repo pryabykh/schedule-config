@@ -8,7 +8,9 @@ spring:
       globalcors:
         corsConfigurations:
           '[/**]':
-            allowedOrigins: "*"
-            allowedMethods: "*"
+            allowedOrigins: "http://localhost:3000"
+            allowedMethods:
+              - GET
+              - POST
             allowedHeaders: "*"
         add-to-simple-url-handler-mapping: true

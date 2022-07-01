@@ -16,6 +16,4 @@ spring:
         add-to-simple-url-handler-mapping: true
 gateway:
   auth:
-    exclude:
-      - GET
-      - POST
+    exclude: a,b,c

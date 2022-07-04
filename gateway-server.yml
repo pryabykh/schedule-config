@@ -16,4 +16,4 @@ spring:
         add-to-simple-url-handler-mapping: true
 gateway:
   auth:
-    exclude: /v1/users/register,/v1/auth/login,/v1/auth/refresh
+    exclude: /v1/users/register,/v1/auth/refresh

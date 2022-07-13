@@ -12,6 +12,8 @@ spring:
             allowedMethods:
               - GET
               - POST
+              - PUT
+              - DELETE
             allowedHeaders: "*"
         add-to-simple-url-handler-mapping: true
 gateway:
